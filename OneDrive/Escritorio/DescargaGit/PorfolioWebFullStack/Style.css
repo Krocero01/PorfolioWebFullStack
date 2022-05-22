@@ -1,0 +1,86 @@
+body {
+          font-family: Arial;
+          font-size: 22px;
+          } 
+
+#AcercaDe {
+          height: 80px;
+          width: 1323px;
+          border-radius: 10px;
+          border: 1px solid #3b3b3b;
+          margin-top: 35px;
+          margin-bottom: 35px;
+          padding: 5px;
+          background-color: #f8f8fa;
+          }          
+
+#Exp {
+          height: 80px;
+          width: 1323px;
+          border-radius: 10px;
+          border: 1px solid #3b3b3b;
+          margin-top: 35px;
+          margin-bottom: 35px;
+          padding: 5px;
+          background-color: #f8f8fa;
+          }
+
+#Educ {
+          height: 250px;
+          width: 1323px;
+          border-radius: 10px;
+          border: 1px solid #3b3b3b;
+          margin-top: 35px;
+          margin-bottom: 35px;
+          padding: 5px;
+          background-color: #f8f8fa;
+          }
+
+#Skills {
+          height: 300px;
+          width: 1323px;
+          border-radius: 10px;
+          border: 1px solid #3b3b3b;
+          margin-top: 35px;
+          margin-bottom: 35px;
+          padding: 5px;
+          background-color: #f8f8fa;
+          }
+
+#barra  {
+          margin-left: 12%; 
+          width: 1000px;
+          height: 20px;
+          border-radius: 10px;
+          border: 1px solid #0a0a0a;                 
+          }
+
+#barra-porc  {
+          width: 70%;
+          height: 20px;
+          border-radius: 10px;
+          background-color: #011896;
+          }
+
+#barra-porc2  {
+          width: 30%;
+          height: 20px;
+          border-radius: 10px;
+          background-color: #011896;
+          }          
+
+#proyec {
+          height: 300px;
+          width: 1323px;
+          border-radius: 10px;
+          border: 1px solid #3b3b3b;
+          margin-top: 35px;
+          margin-bottom: 35px;
+          padding: 5px;
+          background-color: #f8f8fa;
+          }           
+       
+
+
+
+
