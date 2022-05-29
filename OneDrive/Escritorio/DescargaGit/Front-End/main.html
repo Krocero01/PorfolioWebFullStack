@@ -2,8 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=M, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width">
     <title>MiPorfolio</title>
     <link rel="stylesheet" href="Style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css">
@@ -11,49 +10,51 @@
 </head>
 <body>
     <form action="#" method="POST"> 
-            <div id="login-button" style="float: right;">
-            <button type="submit" style="margin-top: 11px;">Login</button>
+            <div id="login-button">
+            <button id="logeo" type="submit">Login</button>
             </div>
 
-            <div class="redes-button" style="float: right; padding-right: 5px;">                           
-            <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
-            <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
-            <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+            <div class="redes-button">                           
+            <a href="#" class="facebook" aria-label="facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="twitter"aria-label="twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="instagram" aria-label="facebook"><i class="fab fa-instagram"></i></a>
             </div>
 
-            <div id="logoAP">
-            <img border= 2px; src="Logo-Argentina-Programa.png" alt="Logo Arg. Prog.">
-            </div>                   
+            <img id="logoAP" src="Logo-Argentina-Programa.png" alt="Logo Arg. Prog.">
+                               
     </form>
-    <img src="matri-1920.jpg" alt="Fondo" style="width: 1333px; height: 380px; border-top-left-radius:10px; border-top-right-radius: 10px;" border= 2px;>
-    <div id="presentacion" style= "margin-top: 0px;">
-        <img src="Foto.jpg" alt="Foto-perfil" border= "2px;" align= "left" style= "margin-right: 5px;">
-        <h2><b>Alejandro Carnevalini</b><img src="Logo-Argentina-Programa.png" alt="Logo Arg. Prog." border= 2px; Style="float: right;"></h2>
-        <b>Full Stack Developer Jr.</b>    
-     </div>
-     <br clear="right">
-     <br clear="right">    
-    <div id="AcercaDe" style="margin-botton: 0px; margin-top: 0px;"><b>Acerca de</b><p><font size="2">Tecnico en electronica y telecomunicaciones</font></p></div>
-    <div id="Exp" style="margin-botton: 0px; margin-top: 0px;"><b>Experiencia</b></div> 
-    <div id="Educ" style="margin-botton: 0px; margin-top: 0px;"><b>Educacion</b><br clear="right"><br clear="right"><img src="Logo-roscelli.jpg" alt="LogoRoscelli" border= 1px; align= "left" style= "margin-right: 5px;">
-    <b><font size="3">Colegio Agustin Roscelli</font></b><br clear="right"><font size="2">Jardin de Infantes - Estudios Primarios</font></br><font size="1">1986 - 1994</font>
+    <img id="banner" src="matri-1920.jpg" alt="Fondo">
+    <div id="presentacion">
+        <img id="fotoPers" src="Foto.jpg" alt="Foto-perfil"><aside><b id="nombre">Alejandro Carnevalini</b>
+            <img id="logoAP2" src="Logo-Argentina-Programa.png" alt="Logo Arg. Prog."><br clear="right">
+            <p id="titulo">Full Stack Developer Jr.</p></aside>
+    </div>
     <br clear="right">
+    <div id="seccion1"><b>Acerca de</b><p id="P">Tecnico en electronica y telecomunicaciones</p></div>
+    <div id="seccion2"><b>Experiencia</b></div> 
+    <div id="seccion3"><b>Educacion</b><br clear="right"><br clear="right"><img id="logoED" src="Logo-roscelli.jpg" alt="LogoRoscelli">
+    <aside><b id="est">Colegio Agustin Roscelli</b>
+    <p id="P2">Jardin de Infantes - Estudios Primarios</p>
+    <p id="P-">1986 - 1994</p></aside>
     <br clear="right">
-    <img src="eet n° 3.png" alt="LogoTecnica3" border= 1px; align= "left" style= "margin-right: 5px;">
-    <b><font size="3">E.E.T.N°3 Fray Luis Beltran</font></b><br clear="right"><font size="2">Tecnico en electronica y telecomunicaciones</font></br><font size="1">1995 - 2001</font></div>
-    <div id="Skills" style="margin-botton: 0px; margin-top: 0px;"><b>Hard & Soft Skills</b>
+    <img id="logoED2" src="eet n° 3.png" alt="LogoTecnica3">
+    <aside><b id="est2">E.E.T.N°3 Fray Luis Beltran</b>
+    <p Id="P3">Tecnico en electronica y telecomunicaciones</p>
+    <p id="P--">1995 - 2001</p></aside>
+    </div>
+    <div id="secccion4"><b>Hard & Soft Skills</b>
         <br clear="right">
         <br clear="right">
-        <p style="font-size: 10px; text-align: center"><b>Resolucion de problemas</b></p>
+        <p id="skills"><b>Resolucion de problemas</b></p>
         <div id="barra">
             <div id="barra-porc"></div>
         </div>
         <br clear="right">
-        <p style="font-size: 10px; text-align: center"><b>Velocidad de desarrollo</b></p>
-        <div id="barra">
+        <p id="skills2"><b>Velocidad de desarrollo</b></p>
+        <div id="barra2">
             <div id="barra-porc2"></div>
         </div>
     </div>
-    <div id="proyec" style="margin-botton: 0px; margin-top: 0px;"><b>Proyectos</b></div> 
+    <div id="seccion5"><b>Proyectos</b></div> 
 </body>
 </html>

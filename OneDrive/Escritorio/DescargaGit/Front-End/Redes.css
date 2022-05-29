@@ -8,14 +8,11 @@
     align-items: center;
     text-decoration: none;
     border-radius: 50%;
-    margin: 2px 2px;
+    margin: 2px 5px;
     transition: transform 0.4s;
     font-size: 22px;
-}
-
-.redes-Button a:hover {
-    transform: scale(1.3);
-}
+    float: right; 
+    }
 
 .redes-button a.facebook {
     background-color: #3b5998;

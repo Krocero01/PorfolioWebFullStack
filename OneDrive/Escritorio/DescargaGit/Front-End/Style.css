@@ -1,9 +1,97 @@
 body {
           font-family: Arial;
           font-size: 22px;
+          background-color: #d4d4f1;
           } 
 
-#AcercaDe {
+#login-button {
+          float: right;
+          }
+
+#logeo {
+          margin-top: 11px;
+          }
+
+/*#redesbtn {
+          float: right; 
+          padding-right: 5px;
+          }*/           
+
+#logoAP {
+          border: 2px solid #0a0a0a;
+          }
+
+#banner {
+          width: 1333px; 
+          height: 380px; 
+          border-top-left-radius:10px; 
+          border-top-right-radius: 10px; 
+          border: 2px;
+          }
+
+#fotoPers {
+          float: left;
+          border: 2px solid #0a0a0a;
+          margin-right: 5px;
+          }
+
+#presentación {
+          margin-top: 0px;
+          }
+
+#nombre {
+          font-size: 25px;
+          }
+
+#titulo {
+          font-size: 18px;
+          }
+
+#logoAP2 {
+          border: 2px solid #0a0a0a;
+          float: right;
+          }
+
+#P {
+          font-size: 13px;
+          }
+
+#P2 {
+          font-size: 13px;
+          margin: 5px;
+          }
+          
+#P3 {
+          font-size: 13px;
+          margin: 5px;
+          } 
+
+#P- {
+          font-size: 11px;
+          margin: 5px;
+          }
+          
+#P-- {
+          font-size: 11px;
+          margin: 5px;
+          }
+
+#seccion1 {
+          margin-bottom: 0px;
+          margin-top: 0px;
+          height: 80px;
+          width: 1323px;
+          border-radius: 10px;
+          border: 1px solid #3b3b3b;
+          margin-top: 35px;
+          margin-bottom: 35px;
+          padding: 5px;
+          background-color: #f8f8fa;
+          }
+          
+#seccion2 {
+          margin-bottom: 0px;
+          margin-top: 0px;
           height: 80px;
           width: 1323px;
           border-radius: 10px;
@@ -14,18 +102,7 @@ body {
           background-color: #f8f8fa;
           }          
 
-#Exp {
-          height: 80px;
-          width: 1323px;
-          border-radius: 10px;
-          border: 1px solid #3b3b3b;
-          margin-top: 35px;
-          margin-bottom: 35px;
-          padding: 5px;
-          background-color: #f8f8fa;
-          }
-
-#Educ {
+#seccion3 {
           height: 250px;
           width: 1323px;
           border-radius: 10px;
@@ -36,7 +113,33 @@ body {
           background-color: #f8f8fa;
           }
 
-#Skills {
+#logoED {
+          border: 1px solid #0a0a0a; 
+          float: left;
+          margin-right: 5px;
+          height: 65px;
+          width: 65px;
+          }
+          
+#logoED2 {
+          border: 1px solid #0a0a0a;
+          float: left;         
+          margin-right: 5px;
+          height: 65px;
+          width: 65px;
+          }
+
+#est {
+          font-size: 18px;
+          }
+
+#est2 {
+          font-size: 18px;
+          }
+
+#secccion4 {
+          margin-bottom: 0px; 
+          margin-top: 0px;
           height: 300px;
           width: 1323px;
           border-radius: 10px;
@@ -47,6 +150,16 @@ body {
           background-color: #f8f8fa;
           }
 
+#skills {
+          font-size: 10px;
+          text-align: center;
+          }
+          
+#skills2 {
+          font-size: 10px; 
+          text-align: center;
+          }          
+
 #barra  {
           margin-left: 12%; 
           width: 1000px;
@@ -54,6 +167,14 @@ body {
           border-radius: 10px;
           border: 1px solid #0a0a0a;                 
           }
+
+#barra2 {
+          margin-left: 12%; 
+          width: 1000px;
+          height: 20px;
+          border-radius: 10px;
+          border: 1px solid #0a0a0a;                 
+          }          
 
 #barra-porc  {
           width: 70%;
@@ -69,7 +190,9 @@ body {
           background-color: #011896;
           }          
 
-#proyec {
+#seccion5 {
+          margin-bottom: 0px; 
+          margin-top: 0px;
           height: 300px;
           width: 1323px;
           border-radius: 10px;
